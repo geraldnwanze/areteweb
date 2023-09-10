@@ -1,5 +1,9 @@
 import heroImage from "../images/hero-image.png";
 import heroVector from "../images/hero-vector.png";
+import officeBag from "../images/office-bag.svg";
+import user from "../images/user.svg";
+import table from "../images/table.png";
+import heroVector2 from "../images/hero-vector-2.png";
 
 const Hero = () => {
     return (
@@ -27,6 +31,32 @@ const Hero = () => {
                 </div>
                 <div>
                     <img src={heroImage} alt="" className="w-[400%]" />
+                </div>
+            </div>
+
+            <img src={heroVector2} alt="" className="relative -top-20 left-20" />
+            
+            <div className="flex justify-around">
+                <div className="flex gap-5">
+                    <img src={officeBag} alt="" />
+                    <div>
+                        <h1 className="font-[800] text-[32px] text-[#475467]">50k +</h1>
+                        <p className="text-[#667085]">Job Vacancy</p>
+                    </div>
+                </div>
+                <div className="flex gap-5">
+                    <img src={user} alt="" />
+                    <div>
+                        <h1 className="font-[800] text-[32px] text-[#475467]">20k +</h1>
+                        <p className="text-[#667085]">People Hired</p>
+                    </div>
+                </div>
+                <div className="flex gap-5">
+                    <img src={table} alt="" />
+                    <div>
+                        <h1 className="font-[800] text-[32px] text-[#475467]">20k +</h1>
+                        <p className="text-[#667085]">People Hired</p>
+                    </div>
                 </div>
             </div>
         </section>
