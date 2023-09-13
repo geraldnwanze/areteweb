@@ -1,6 +1,9 @@
 import facebook from "../images/facebook.svg";
 import mozilla from "../images/mozilla.svg"
 import instagram from "../images/instagram.svg";
+import star from "../images/star.svg";
+import halfStar from "../images/half-star.svg";
+import location from "../images/location.svg";
 
 const TopRecruiters = () => {
     return (
@@ -16,7 +19,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -24,17 +27,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -45,7 +48,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -53,17 +56,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -73,24 +76,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative" />
+                  <img src={mozilla} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Mozila FireFox</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -100,28 +103,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-pink-600 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-lime-100 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-blue-600 rounded-md" />
-                  </div>
+                  <img src={instagram} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Instagram</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -134,7 +133,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -142,17 +141,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -163,7 +162,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -171,17 +170,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -191,24 +190,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative" />
+                  <img src={mozilla} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Mozila FireFox</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -218,28 +217,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-pink-600 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-lime-100 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-blue-600 rounded-md" />
-                  </div>
+                  <img src={instagram} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Instagram</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -252,7 +247,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -260,17 +255,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -281,7 +276,7 @@ const TopRecruiters = () => {
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-gradient-to-b from-sky-500 to-blue-700 rounded-full" />
+                    <img src={facebook} alt="" />
                   </div>
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-[17px] font-bold font-['Inter'] leading-7">Facebook Inc.</div>
@@ -289,17 +284,17 @@ const TopRecruiters = () => {
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -309,24 +304,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative" />
+                  <img src={mozilla} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Mozila FireFox</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
@@ -336,28 +331,24 @@ const TopRecruiters = () => {
             <div className="grow shrink basis-0 p-[30px] bg-white rounded-[14px] shadow shadow-inner flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="flex-col justify-start items-start gap-7 flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
-                  <div className="w-[60px] h-[60px] relative">
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-pink-600 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-lime-100 rounded-md" />
-                    <div className="w-[52.50px] h-[52.50px] left-[3.75px] top-[3.75px] absolute bg-blue-600 rounded-md" />
-                  </div>
+                  <img src={instagram} alt="" />
                   <div className="flex-col justify-start items-start gap-2 flex">
                     <div className="text-slate-600 text-lg font-bold font-['Inter'] leading-7">Instagram</div>
                   </div>
                 </div>
                 <div className="justify-start items-center gap-[15px] inline-flex">
                   <div className="justify-start items-start gap-[8.15px] flex">
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
-                    <div className="w-[20.38px] h-[20.38px] relative" />
+                  <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={halfStar} alt="" className="-mt-[2px]" />
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">(23)</div>
                 </div>
                 <div className="w-[228px] justify-between items-start inline-flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="w-5 h-5 relative" />
+                    <img src={location} alt="" />
                     <div className="text-slate-600 text-sm font-medium font-['Inter'] leading-tight">USA</div>
                   </div>
                   <div className="text-slate-600 text-sm font-normal font-['Inter'] leading-tight">1 Opening Job</div>
