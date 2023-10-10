@@ -9,7 +9,7 @@ import setting from "../images/icons/setting.svg";
 
 const LeftSideBar = () => {
     return (
-        <div className="w-80 bg-[#FFFFFF] pl-10">
+        <div className="w-[20%] bg-[#FFFFFF] pl-10">
             <div className="w-full py-8">
                 <img src={logo} alt=""/>
             </div>
