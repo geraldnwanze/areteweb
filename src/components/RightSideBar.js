@@ -2,6 +2,8 @@ import favicon from "../images/icons/favicon.svg";
 import setting from "../images/icons/setting.svg";
 import notification from "../images/icons/notification.svg";
 import notificationWithBadge from "../images/icons/notification-with-badge.svg";
+import userImage from "../images/user-image.svg";
+import userAvatar from "../images/user-avatar.svg";
 
 const RightSideBar = () => {
     return (
@@ -10,13 +12,13 @@ const RightSideBar = () => {
             <img src={setting} alt="" className="w-6 h-6" />
             <img src={notificationWithBadge} alt="" />
             <div className="bg-[#E3E5E8] h-10 w-[2px]"></div>
-            <img src={favicon} alt="" />
+            <img src={userAvatar} alt="" />
           </div>
 
           <div className="overflow-auto">
             <div className="flex flex-col pt-10 gap-3">
-              <div className="rounded-full border-2 w-40 h-40 p-5 mx-auto">
-                <img src={favicon} alt="" className="w-32 h-32 mx-auto" />
+              <div className="rounded-full border-2 w-40 h-40 mx-auto">
+                <img src={userImage} alt="" className="w-40 h-40 mx-auto" />
               </div>
               <h4 className="text-center text-[18px] font-[600]">Mitchell Cooper</h4>
               <button className="bg-[#E3E5E8] rounded-lg py-2 px-2 w-3/5 mx-auto">View Business Profile</button>
