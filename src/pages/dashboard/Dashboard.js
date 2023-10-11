@@ -1,12 +1,10 @@
-import LeftSideBar from "../components/LeftSideBar";
-import RightSideBar from "../components/RightSideBar";
-import statistics from "../images/statistics.svg";
-import activityApplicants from "../images/activity-applicants.svg";
+import statistics from "../../images/statistics.svg";
+import activityApplicants from "../../images/activity-applicants.svg";
+import RightSideBar from "../../components/RightSideBar";
 
 const Dashboard = () => {
     return (
-        <div className="flex w-full">
-            <LeftSideBar />
+        <>
             <div className="w-[57%] p-8 h-screen overflow-auto">
                 <div className="flex justify-between items-center py-5">
                     <div>
@@ -67,8 +65,9 @@ const Dashboard = () => {
                 <img src={statistics} alt="" className="my-5" />
                 <img src={activityApplicants} alt="" />
             </div>
+
             <RightSideBar />
-        </div>
+        </>
     )
 }
 

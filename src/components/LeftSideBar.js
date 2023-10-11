@@ -6,6 +6,7 @@ import users from "../images/icons/users.svg";
 import jobs from "../images/icons/jobs.svg";
 import company from "../images/icons/company.svg";
 import setting from "../images/icons/setting.svg";
+import { Link } from "react-router-dom";
 
 const LeftSideBar = () => {
     return (
@@ -15,48 +16,48 @@ const LeftSideBar = () => {
             </div>
             <h4 className="my-5 mt-0 text-[18px] text-[#1D2939] font-[500]">MENU</h4>
             <div className="w-4/5 flex flex-col">
-                <a href="/" className="bg-[#690068] p-[17px] rounded-[16px] text-white flex gap-[16px]">
+                <Link to='/' className="bg-[#690068] p-[17px] rounded-[16px] text-white flex gap-[16px]">
                     <img src={dashboard} alt="" />
                     Dashboard
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                </Link>
+                <Link to='/messages' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={chat} alt="" />
-                    Message
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                    Messages
+                </Link>
+                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={wallet} alt="" />
                     Wallet
-                </a>
+                </Link>
             </div>
             <h4 className="my-5 text-[18px] text-[#1D2939] font-[500]">RECRUITMENT</h4>
             <div className="w-4/5 flex flex-col">
-                <a href="/" className="p-[17px] rounded-[16px]  flex gap-[16px]">
+                <Link to='' className="p-[17px] rounded-[16px]  flex gap-[16px]">
                     <img src={jobs} alt="" />
                     Jobs
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                </Link>
+                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={users} alt="" />
                     Applicants
-                </a>
+                </Link>
             </div>
             <h4 className="my-5 text-[18px] text-[#1D2939] font-[500]">ORGANIZATION</h4>
             <div className="w-4/5 flex flex-col">
-                <a href="/" className="p-[17px] rounded-[16px]  flex gap-[16px]">
+                <Link to='' className="p-[17px] rounded-[16px]  flex gap-[16px]">
                     <img src={company} alt="" />
                     Business Profile
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                </Link>
+                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={setting} alt="" />
                     Account Setting
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                </Link>
+                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={jobs} alt="" />
                     Get Help
-                </a>
-                <a href="/" className="p-[17px] rounded-[16px] flex gap-[16px]">
+                </Link>
+                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
                     <img src={wallet} alt="" />
                     My Referrals
-                </a>
+                </Link>
             </div>
         </div>
     )

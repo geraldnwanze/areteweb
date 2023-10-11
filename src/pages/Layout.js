@@ -1,11 +1,11 @@
+import { Outlet } from "react-router-dom";
 import LeftSideBar from "../components/LeftSideBar";
-import RightSideBar from "../components/RightSideBar";
 
 const Layout = () => {
     return (
-        <div className="flex">
+        <div className="flex w-full">
             <LeftSideBar />
-            <RightSideBar />
+                <Outlet />
         </div>
     )
 }
