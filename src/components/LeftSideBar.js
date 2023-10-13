@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const LeftSideBar = () => {
     return (
-        <div className="w-[20%] bg-[#FFFFFF] pl-10">
+        <div className="w-[20%] bg-[#FFFFFF] pl-10 h-screen">
             <div className="w-full py-8">
                 <img src={logo} alt=""/>
             </div>
