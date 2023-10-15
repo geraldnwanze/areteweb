@@ -3,6 +3,7 @@ import './App.css';
 import Dashboard from './pages/dashboard/Dashboard';
 import Layout from './pages/Layout';
 import Messages from './pages/messages/Messages';
+import Applicants from './pages/applicants/Applicants';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,20 @@ const router = createBrowserRouter([
       {
         path: '/messages',
         element: <Messages />
+      },
+      {
+        path: '/applicants',
+        element: <Applicants />,
+        children: [
+          {
+            path: 'hired',
+            element: <h1>hired</h1>
+          },
+          {
+            path: 'archived',
+            element: <h1>archived</h1>
+          }
+        ]
       }
     ]
   }

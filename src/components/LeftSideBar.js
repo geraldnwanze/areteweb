@@ -27,37 +27,37 @@ const LeftSideBar = () => {
                     <img src={chat} alt="" />
                     Messages
                 </Link>
-                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
+                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/wallet' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={wallet} alt="" />
                     Wallet
                 </Link>
             </div>
             <h4 className="my-5 text-[18px] text-[#1D2939] font-[500]">RECRUITMENT</h4>
             <div className="w-4/5 flex flex-col">
-                <Link to='' className="p-[17px] rounded-[16px]  flex gap-[16px]">
+                <Link to='' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/jobs' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={jobs} alt="" />
                     Jobs
                 </Link>
-                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
+                <Link to='/applicants' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/applicants' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={users} alt="" />
                     Applicants
                 </Link>
             </div>
             <h4 className="my-5 text-[18px] text-[#1D2939] font-[500]">ORGANIZATION</h4>
             <div className="w-4/5 flex flex-col">
-                <Link to='' className="p-[17px] rounded-[16px]  flex gap-[16px]">
+                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/business-profile' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={company} alt="" />
                     Business Profile
                 </Link>
-                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
+                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/account-setting' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={setting} alt="" />
                     Account Setting
                 </Link>
-                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
+                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/get-help' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={jobs} alt="" />
                     Get Help
                 </Link>
-                <Link to='' className="p-[17px] rounded-[16px] flex gap-[16px]">
+                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/referrals' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={wallet} alt="" />
                     My Referrals
                 </Link>
