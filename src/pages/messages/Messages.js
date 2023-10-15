@@ -122,7 +122,7 @@ const Messages = () => {
                         </svg>
 
                     </div>
-                    <div className="bg-[#7CD4FD1A] w-full p-5">
+                    <div className="bg-[#f2f2f2] w-full px-5 py-2 h-[58vh] overflow-auto">
                         <div className="flex gap-5 my-10 items-center">
                             <img src={avatar1} alt="" />
                             <div>
@@ -163,6 +163,27 @@ const Messages = () => {
                             </div>
                         </div>
                     </div>
+                        <div className="w-full px-5 bg-[#f2f2f2]">
+                            <div className="p-2 py-3 rounded-xl border-2 bg-transparent border-[#690068] flex gap-2 items-center">
+                                <img src={avatar4} alt="" className="h-8" />
+                                <input type="text" className="bg-transparent w-[70%] focus:outline-0" />
+                                <div className="bg-white p-2 rounded-xl">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-500">
+                                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 00-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 01-.189-.866c0-.298.059-.605.189-.866zm2.023 6.828a.75.75 0 10-1.06-1.06 3.75 3.75 0 01-5.304 0 .75.75 0 00-1.06 1.06 5.25 5.25 0 007.424 0z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div className="bg-white p-2 rounded-xl">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-gray-500">
+                                        <path fillRule="evenodd" d="M18.97 3.659a2.25 2.25 0 00-3.182 0l-10.94 10.94a3.75 3.75 0 105.304 5.303l7.693-7.693a.75.75 0 011.06 1.06l-7.693 7.693a5.25 5.25 0 11-7.424-7.424l10.939-10.94a3.75 3.75 0 115.303 5.304L9.097 18.835l-.008.008-.007.007-.002.002-.003.002A2.25 2.25 0 015.91 15.66l7.81-7.81a.75.75 0 011.061 1.06l-7.81 7.81a.75.75 0 001.054 1.068L18.97 6.84a2.25 2.25 0 000-3.182z" clipRule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div className="bg-[#FEBA00] p-2 rounded-xl">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white -rotate-45">
+                                        <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                 </div>
 
             </div>
