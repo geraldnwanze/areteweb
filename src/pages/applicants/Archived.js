@@ -33,9 +33,6 @@ const Archived = () => {
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
                     </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
-                    </div>
                 </div>
             </div>
             <div className="w-full h-48 px-7 py-6 bg-white rounded-2xl shadow-inner justify-between items-start inline-flex">
@@ -67,9 +64,6 @@ const Archived = () => {
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
                     </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
-                    </div>
                 </div>
             </div>
             <div className="w-full h-48 px-7 py-6 bg-white rounded-2xl shadow-inner justify-between items-start inline-flex">
@@ -100,9 +94,6 @@ const Archived = () => {
                 <div className="justify-end items-center gap-4 flex">
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
-                    </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
                     </div>
                 </div>
             </div>

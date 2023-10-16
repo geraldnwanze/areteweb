@@ -33,8 +33,9 @@ const Hired = () => {
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
                     </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
+                    <div className="px-5 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
+                    <div className="w-6 h-6 relative" />
+                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Message</div>
                     </div>
                 </div>
             </div>
@@ -67,8 +68,9 @@ const Hired = () => {
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
                     </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
+                    <div className="px-5 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
+                    <div className="w-6 h-6 relative" />
+                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Message</div>
                     </div>
                 </div>
             </div>
@@ -101,8 +103,9 @@ const Hired = () => {
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
                     <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
                     </div>
-                    <div className="px-6 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
-                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Hire</div>
+                    <div className="px-5 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
+                    <div className="w-6 h-6 relative" />
+                    <div className="text-justify text-white text-base font-semibold font-['Inter'] leading-normal">Message</div>
                     </div>
                 </div>
             </div>
