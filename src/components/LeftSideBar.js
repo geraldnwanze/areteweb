@@ -38,7 +38,7 @@ const LeftSideBar = () => {
                     <img src={jobs} alt="" />
                     Jobs
                 </Link>
-                <Link to='/applicants' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/applicants' ? 'bg-[#690068] text-white' : ''}`}>
+                <Link to='/applicants' className={`p-[17px] rounded-[16px] flex gap-[16px] ${(currentUrl.indexOf('applicants') > -1) ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={users} alt="" />
                     Applicants
                 </Link>

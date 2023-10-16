@@ -4,6 +4,9 @@ import Dashboard from './pages/dashboard/Dashboard';
 import Layout from './pages/Layout';
 import Messages from './pages/messages/Messages';
 import Applicants from './pages/applicants/Applicants';
+import ApplicantsLayout from './pages/applicants/ApplicantsLayout';
+import Archived from './pages/applicants/Archived';
+import Hired from './pages/applicants/Hired';
 
 const router = createBrowserRouter([
   {
@@ -19,16 +22,19 @@ const router = createBrowserRouter([
         element: <Messages />
       },
       {
-        path: '/applicants',
-        element: <Applicants />,
+        element: <ApplicantsLayout />,
         children: [
           {
-            path: 'hired',
-            element: <h1>hired</h1>
+            path: '/applicants',
+            element: <Applicants />
           },
           {
-            path: 'archived',
-            element: <h1>archived</h1>
+            path: '/applicants/hired',
+            element: <Hired />
+          },
+          {
+            path: '/applicants/archived',
+            element: <Archived  />
           }
         ]
       }
