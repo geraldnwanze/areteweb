@@ -57,7 +57,7 @@ const LeftSideBar = () => {
                     <img src={jobs} alt="" />
                     Get Help
                 </Link>
-                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/referrals' ? 'bg-[#690068] text-white' : ''}`}>
+                <Link to='/referrals' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/referrals' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={wallet} alt="" />
                     My Referrals
                 </Link>
