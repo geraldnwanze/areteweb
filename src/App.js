@@ -7,6 +7,7 @@ import Applicants from './pages/applicants/Applicants';
 import ApplicantsLayout from './pages/applicants/ApplicantsLayout';
 import Archived from './pages/applicants/Archived';
 import Hired from './pages/applicants/Hired';
+import Referrals from './pages/referrals/Referrals';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
             element: <Archived  />
           }
         ]
+      },
+      {
+        path: '/referrals',
+        element: <Referrals />
       }
     ]
   }

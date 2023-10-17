@@ -7,7 +7,7 @@ const ApplicantsLayout = () => {
     const currentUrl = location.pathname;
 
     return (
-        <div className="p-10 w-[80%]">
+        <div className="p-10 pb-0 w-[80%]">
             <TopBar title='Applicants' description='Add and manage your Business Artisans and their details' />
             <div className="mt-10">
                 <div className="flex gap-10 my-10">
@@ -29,7 +29,9 @@ const ApplicantsLayout = () => {
                     </div>
                 </div>
 
-                <Outlet context={[ukFlag]} />
+                <div className="flex flex-col w-full gap-5 h-[60vh] overflow-auto">
+                    <Outlet context={[ukFlag]} />
+                </div>
             </div>
         </div>
     )

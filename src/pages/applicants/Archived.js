@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 const Archived = () => {
     const [flag] = useOutletContext();
     return (
-        <div className="flex flex-col w-full gap-5 h-[60vh] overflow-auto">
+        <>
             <div className="w-full h-48 px-7 py-6 bg-white rounded-2xl shadow-inner justify-between items-start inline-flex">
                 <div className="justify-start items-start gap-5 flex">
                     <img className="w-24 h-24 rounded-full border-4 border-white" src="https://via.placeholder.com/100x100" alt="" />
@@ -97,7 +97,7 @@ const Archived = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
