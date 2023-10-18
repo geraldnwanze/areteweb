@@ -66,16 +66,83 @@ const Referrals = () => {
                     </div>
                 </div>
 
-                <div className="w-[55%] bg-[#D0D5DD] rounded-lg h-[60vh] ">
+                <div className="w-[55%] bg-[#ebeef3] rounded-lg h-[60vh]">
                     <div className="w-full px-5 py-3 rounded-t-lg border-b-[1px]">
                         <h4 className="text-[18px] text-[#1D2939] font-[600]">Recent Referrals</h4>
                     </div>
-                    <div className="flex gap-2 p-5">
-                        <div className="flex items-center justify-between">
-                            <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-20" />
-                            <div className="">
-                                <h4>Olivia Rhye</h4>
-                                <p>10 mins ago</p>
+                    <div className="h-[53vh] overflow-auto">
+                        <div className="">
+                            <div className="flex flex-col gap-5 justify-between p-5">
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
+                                <div className="w-full flex items-center justify-between">
+                                    <div className="flex items-center gap-5">
+                                        <img src="https://via.placeholder.com/100x100" alt="" className="rounded-full h-16" />
+                                        <div className="">
+                                            <h4 className="text-[#344054] text-[15px] font-[600]">Olivia Rhye <span className="font-[400]">Signed up as an Artisian</span></h4>
+                                            <p className="text-[#667085]">10 mins ago</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[#31D482]">+20 points</span>
+                                </div>
                             </div>
                         </div>
                     </div>
