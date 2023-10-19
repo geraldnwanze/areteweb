@@ -8,6 +8,7 @@ import ApplicantsLayout from './pages/applicants/ApplicantsLayout';
 import Archived from './pages/applicants/Archived';
 import Hired from './pages/applicants/Hired';
 import Referrals from './pages/referrals/Referrals';
+import BusinessProfile from './pages/business/BusinessProfile';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: '/referrals',
         element: <Referrals />
+      },
+      {
+        path: '/business-profile',
+        element: <BusinessProfile />
       }
     ]
   }

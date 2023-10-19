@@ -45,7 +45,7 @@ const LeftSideBar = () => {
             </div>
             <h4 className="my-5 text-[18px] text-[#1D2939] font-[500]">ORGANIZATION</h4>
             <div className="w-4/5 flex flex-col">
-                <Link to='/' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/business-profile' ? 'bg-[#690068] text-white' : ''}`}>
+                <Link to='/business-profile' className={`p-[17px] rounded-[16px] flex gap-[16px] ${currentUrl === '/business-profile' ? 'bg-[#690068] text-white' : ''}`}>
                     <img src={company} alt="" />
                     Business Profile
                 </Link>
