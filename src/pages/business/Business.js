@@ -1,4 +1,4 @@
-import { FaCamera } from "react-icons/fa";
+import { FaCamera, FaCheck } from "react-icons/fa";
 
 const Business = () => {
     return (
@@ -75,7 +75,7 @@ const Business = () => {
                         <input type="text" name="" className="rounded-lg p-2 w-full" placeholder="Add twitter profile link" />
                     </div>
                 </div>
-                <button className="px-5 py-2 bg-[#690068] rounded-lg text-white">Save</button>
+                <button className="w-1/6 px-5 py-2 bg-[#690068] rounded-lg text-white flex items-center gap-5"><FaCheck /> Save</button>
             </div>
         </div>
     )
