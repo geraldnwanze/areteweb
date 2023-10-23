@@ -28,7 +28,8 @@ const router = createBrowserRouter([
         children: [
           {
             path: '/applicants',
-            element: <Applicants />
+            element: <Applicants />,
+            errorElement: <h1>page not found</h1>
           },
           {
             path: '/applicants/hired',
