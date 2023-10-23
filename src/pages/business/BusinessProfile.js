@@ -1,7 +1,7 @@
 import { useState } from "react";
 import businessProfileBG from "../../images/business-profile-bg.svg";
 import businessProfileMap from "../../images/business-profile-map.svg";
-import { FaBell, FaBuilding, FaLock, FaSignOutAlt, FaTrash, FaUser } from "react-icons/fa";
+import { FaBell, FaBuilding, FaCalendarAlt, FaDollarSign, FaLock, FaMapMarkerAlt, FaRegClock, FaSignOutAlt, FaStar, FaTrash, FaUser } from "react-icons/fa";
 import Business from "./Business";
 import Profile from "./Profile";
 import Security from "./Security";
@@ -15,6 +15,8 @@ const BusinessProfile = () => {
     const [notification, setNotification] = useState(false);
     const [deleteAccountModal, setDeleteAccountModal] = useState(false);
     const [logoutModal, setLogoutModal] = useState(false);
+    const [postedJobs, setPostedJobs] = useState(true);
+    const [reviewsAndRatings, setReviewsAndRatings] = useState(false);
 
     const handleMenu = (tag) => {
         switch (tag) {
@@ -90,8 +92,125 @@ const BusinessProfile = () => {
                 <img src={businessProfileMap} alt="" />
             </div>
 
-            <div className={`${businessModal ? 'absolute' : 'hidden'} w-full h-screen top-0 left-0 bg-blackTransparent`}>
-                <div className="w-[70vw] h-[80vh] absolute bg-white flex top-[10%] left-[15%] rounded-xl">
+            <div className="flex justify-start items-center text-[15px] gap-5 p-10">
+                <button onClick={() => {setPostedJobs(true); setReviewsAndRatings(false);}} className={`px-5 py-2 rounded-xl ${postedJobs ? 'bg-[#690068] text-white' : 'bg-transparent'}`}>POSTED JOBS</button>
+                <button onClick={() => {setPostedJobs(false); setReviewsAndRatings(true);}} className={`px-5 py-2 rounded-xl ${reviewsAndRatings ? 'bg-[#690068] text-white' : 'bg-transparent'}`}>REVIEWS AND RATINGS</button>
+            </div>
+
+            <div className={`w-full flex flex-col gap-5 ${postedJobs ? 'block' : 'hidden'} p-10`}>
+                <div className="w-full p-10 bg-white rounded-xl">
+                    <h4 className="text-[24px] font-[500]">Junior UI Designer</h4>
+                    <div className="flex justify-start items-center gap-20 my-5 text-[14px]">
+                        <div className="flex gap-2 items-center">
+                            <FaMapMarkerAlt />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaRegClock />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaDollarSign />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaCalendarAlt />
+                            Madrid
+                        </div>
+                    </div>
+                    <p>Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt.</p>
+                </div>
+                <div className="w-full p-10 bg-white rounded-xl">
+                    <h4 className="text-[24px] font-[500]">Junior UI Designer</h4>
+                    <div className="flex justify-start items-center gap-20 my-5 text-[14px]">
+                        <div className="flex gap-2 items-center">
+                            <FaMapMarkerAlt />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaRegClock />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaDollarSign />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaCalendarAlt />
+                            Madrid
+                        </div>
+                    </div>
+                    <p>Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt.</p>
+                </div>
+                <div className="w-full p-10 bg-white rounded-xl">
+                    <h4 className="text-[24px] font-[500]">Junior UI Designer</h4>
+                    <div className="flex justify-start items-center gap-20 my-5 text-[14px]">
+                        <div className="flex gap-2 items-center">
+                            <FaMapMarkerAlt />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaRegClock />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaDollarSign />
+                            Madrid
+                        </div>
+                        <div className="flex gap-2 items-center">
+                            <FaCalendarAlt />
+                            Madrid
+                        </div>
+                    </div>
+                    <p>Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt.</p>
+                </div>
+            </div>
+
+            <div className={`w-full flex flex-col gap-5 p-10 ${reviewsAndRatings ? 'block' : 'hidden'}`}>
+                <div className="py-2 border-y-2 flex items-center gap-3 text-[35px]">
+                    <span className="font-[700]">4.7</span>
+                    <div className="flex text-yellow-500">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar strokeWidth="10" fill="white" />
+                    </div>
+                    <span className="text-[20px]">
+                        (12,000 Ratings)
+                    </span>
+                </div>
+                <h4 className="text-[24px] font-[700]">Reviews</h4>
+                <div className="flex flex-col gap-10">
+                    <div className="flex items-center gap-5">
+                        <div className="w-24 h-24 bg-gray-300 rounded-full flex items-center">
+                            <img src="https://via.placeholder.com/100x100" alt="" className="w-24 h-24 rounded-full" />
+                        </div>
+                        <div className="flex flex-col gap-5 mt-5">
+                            <div className="flex gap-5">
+                                <span className="text-xl font-semibold">Brandon James</span>
+                                <span className="text-xl">12-11-2019, 11:49PM</span>
+                            </div>
+                            <p>It’s an honour working with you guys.....I learnt a lot myself and i enjoyed the workflow and i’m looking forward to working more for the company</p>
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-5">
+                        <div className="w-24 h-24 bg-gray-300 rounded-full flex items-center">
+                            <img src="https://via.placeholder.com/100x100" alt="" className="w-24 h-24 rounded-full" />
+                        </div>
+                        <div className="flex flex-col gap-5 mt-5">
+                            <div className="flex gap-5">
+                                <span className="text-xl font-semibold">Chris bernard</span>
+                                <span className="text-xl">12-11-2019, 11:49PM</span>
+                            </div>
+                            <p>It’s an honour working with you guys.....I learnt a lot myself and i enjoyed the workflow and i’m looking forward to working more for the company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div onClick={() => setBusinessModal(false)} className={`${businessModal ? 'absolute' : 'hidden'} w-full h-screen top-0 left-0 bg-blackTransparent`}>
+                <div className="w-[70vw] h-[80vh] absolute bg-white flex top-[10%] left-[15%] rounded-xl z-50">
                     <div className="w-[25%] h-full rounded-l-xl p-10 flex flex-col justify-between">
                         <div className="text-[#667085] text-[14px]">
                             <h4 className="font-[600] my-10 mt-5 text-[#1D2939]">SETTINGS</h4>
