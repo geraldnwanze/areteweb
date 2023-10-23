@@ -14,6 +14,7 @@ const BusinessProfile = () => {
     const [security, setSecurity] = useState(false);
     const [notification, setNotification] = useState(false);
     const [deleteAccountModal, setDeleteAccountModal] = useState(false);
+    const [logoutModal, setLogoutModal] = useState(false);
 
     const handleMenu = (tag) => {
         switch (tag) {
@@ -114,7 +115,7 @@ const BusinessProfile = () => {
                                 <button onClick={() => setDeleteAccountModal(true)} className="flex gap-5 items-center">
                                     <FaTrash /> Delete Account
                                 </button>
-                                <button onClick={() => handleMenu('business')} className="flex gap-5 items-center">
+                                <button onClick={() => setLogoutModal(true)} className="flex gap-5 items-center">
                                     <FaSignOutAlt /> Logout
                                 </button>
                             </div>
@@ -128,6 +129,7 @@ const BusinessProfile = () => {
                     </div>
                 </div>
             </div>
+
             <div className={`w-full h-screen ${deleteAccountModal ? 'absolute' : 'hidden'} top-0 left-0 bg-blackTransparent`}>
                 <div className="w-[40%] absolute p-10 top-[30%] left-[30%] bg-white rounded-xl">
                     <h4 className="text-[18px] text-[#E94D3F] font-[600] mb-5">Delete Account</h4>
@@ -139,6 +141,17 @@ const BusinessProfile = () => {
                     <div className="flex justify-end items-center gap-5 mt-5 text-[14px]">
                         <button onClick={() => setDeleteAccountModal(false)} className="px-5 py-2 rounded-xl bg-[#F2F4F7]">Cancel</button>
                         <button className="px-5 py-2 rounded-xl bg-[#E94D3F]">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className={`w-full h-screen ${logoutModal ? 'absolute' : 'hidden'} top-0 left-0 bg-blackTransparent`}>
+                <div className="w-[40%] absolute p-10 top-[30%] left-[30%] bg-white rounded-xl">
+                    <h4 className="text-[18px] text-[#E94D3F] font-[600] mb-5">Log Out</h4>
+                    <p className="text-[14px] text-[#28263B]">Are you sure you want to Log out from your Arete Account?</p>
+                    <div className="flex justify-end items-center gap-5 mt-5 text-[14px]">
+                        <button onClick={() => setLogoutModal(false)} className="px-5 py-2 rounded-xl bg-[#F2F4F7]">Cancel</button>
+                        <button className="px-5 py-2 rounded-xl bg-[#E94D3F]">Log Out</button>
                     </div>
                 </div>
             </div>
