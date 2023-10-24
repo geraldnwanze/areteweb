@@ -209,8 +209,8 @@ const BusinessProfile = () => {
                 </div>
             </div>
 
-            <div onClick={() => setBusinessModal(false)} className={`${businessModal ? 'absolute' : 'hidden'} w-full h-screen top-0 left-0 bg-blackTransparent`}>
-                <div className="w-[70vw] h-[80vh] absolute bg-white flex top-[10%] left-[15%] rounded-xl z-50">
+            <div className={`${businessModal ? 'absolute' : 'hidden'} w-full h-screen top-0 left-0 bg-blackTransparent z-50`}>
+                <div className="w-[70vw] h-[80vh] absolute bg-white flex top-[10%] left-[15%] rounded-xl z-0">
                     <div className="w-[25%] h-full rounded-l-xl p-10 flex flex-col justify-between">
                         <div className="text-[#667085] text-[14px]">
                             <h4 className="font-[600] my-10 mt-5 text-[#1D2939]">SETTINGS</h4>
