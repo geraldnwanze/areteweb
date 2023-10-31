@@ -6,9 +6,10 @@ import Messages from './pages/messages/Messages';
 import Applicants from './pages/applicants/Applicants';
 import ApplicantsLayout from './pages/applicants/ApplicantsLayout';
 import Archived from './pages/applicants/Archived';
-import Hired from './pages/applicants/Hired';
+import Hired from './pages/applicants/hired/Hired';
 import Referrals from './pages/referrals/Referrals';
 import BusinessProfile from './pages/business/BusinessProfile';
+import Details from './pages/applicants/hired/Details.hired';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             element: <Archived  />
           }
         ]
+      },
+      {
+        path: '/applicants/hired/details',
+        element: <Details />
       },
       {
         path: '/referrals',

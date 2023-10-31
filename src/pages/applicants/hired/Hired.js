@@ -1,4 +1,4 @@
-import { useOutletContext } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 
 const Hired = () => {
     const [flag] = useOutletContext();
@@ -31,7 +31,7 @@ const Hired = () => {
                 </div>
                 <div className="justify-end items-center gap-4 flex">
                     <div className="px-6 py-2 rounded-xl border border-gray-300 justify-center items-center gap-1.5 flex">
-                    <div className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</div>
+                        <Link to='./details' className="text-center text-gray-500 text-base font-semibold font-['Inter'] leading-normal">Details</Link>
                     </div>
                     <div className="px-5 py-2 bg-fuchsia-900 rounded-xl justify-center items-center gap-1.5 flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
