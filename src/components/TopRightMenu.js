@@ -13,12 +13,12 @@ const TopRightMenu = () => {
             <button>
                 <FaGear />
             </button>
-            <button className="cursor-pointer" onClick={() => setNotificationPopUp(prev => !prev)}>
+            <button className="cursor-pointer" onClick={() => {setNotificationPopUp(prev => !prev); setProfilePopUp(prev => false)}}>
                 <FaBell />
             </button>
             <div className="bg-[#E3E5E8] h-10 w-[2px]"></div>
             <button >
-                <FaUserCircle className="text-3xl" onClick={() => setProfilePopUp(prev => !prev)} />
+                <FaUserCircle className="text-3xl" onClick={() => {setProfilePopUp(prev => !prev); setNotificationPopUp(prev => false)}} />
             </button>
         </div>
 
