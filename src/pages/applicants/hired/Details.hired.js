@@ -37,9 +37,9 @@ const Details = () => {
             <div className="p-10 flex gap-10">
                 <div className="bg-white p-5 w-[70%]"></div>
                 <div className="w-[30%] p-5 bg-blue-800 rounded-lg">
-                    <h4>Duration</h4>
-                    <button className="p-3 bg-white rounded-xl w-full">3 Months</button>
-                    <h4>Salary Range</h4>
+                    <h4 className="text-white mb-3 font-[700]">Duration</h4>
+                    <button className="p-3 bg-white rounded-xl w-full mb-10">3 Months</button>
+                    <h4 className="text-white mb-3 font-[700]">Salary Range</h4>
                     <button className="p-3 bg-white rounded-xl w-full">$8000 - $15000 <span>weekly</span></button>
                 </div>
             </div>

@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         blackTransparent: 'rgba(26, 26, 26, 0.5)'
+      },
+      backgroundImage: {
+        'gradientBlue': "url('/src/images/bg-gradient-blue.png')"
       }
     },
   },
