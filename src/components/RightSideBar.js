@@ -1,8 +1,5 @@
 import favicon from "../images/icons/favicon.svg";
-import setting from "../images/icons/setting.svg";
-import notificationWithBadge from "../images/icons/notification-with-badge.svg";
 import userImage from "../images/user-image.svg";
-import userAvatar from "../images/user-avatar.svg";
 import TopRightMenu from "./TopRightMenu";
 
 const RightSideBar = () => {
