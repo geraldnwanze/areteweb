@@ -1,6 +1,7 @@
 import { FaGear } from "react-icons/fa6";
 import { FaArrowRight, FaBell, FaDotCircle, FaLock, FaSignOutAlt, FaUser, FaUserCircle } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const TopRightMenu = () => {
     const [notificationPopUp, setNotificationPopUp] = useState(false);
@@ -57,7 +58,7 @@ const TopRightMenu = () => {
                 </div>
             </div>
             <div className="border-y-2 py-2 flex justify-center items-center">
-                <span className="flex items-center gap-3 text-[#690068]">View all <FaArrowRight /> </span>
+                <Link to='/notifications' className="flex items-center gap-3 text-[#690068]">View all <FaArrowRight /> </Link>
             </div>
         </div>
 

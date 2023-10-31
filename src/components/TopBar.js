@@ -25,6 +25,7 @@ const TopBar = ({title, description}) => {
                         <input type="text" className="h-12 rounded-e-2xl w-60 p-5 placeholder-[#28263B]" placeholder="search messages" />
                     </div>
                 }
+                
                 <TopRightMenu />
             </div>
 

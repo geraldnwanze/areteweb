@@ -10,6 +10,7 @@ import Hired from './pages/applicants/hired/Hired';
 import Referrals from './pages/referrals/Referrals';
 import BusinessProfile from './pages/business/BusinessProfile';
 import Details from './pages/applicants/hired/Details.hired';
+import Notifications from './pages/notifications/Notifications';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: '/business-profile',
         element: <BusinessProfile />
+      },
+      {
+        path: '/notifications',
+        element: <Notifications />
       }
     ]
   }
