@@ -3,15 +3,13 @@ import setting from "../images/icons/setting.svg";
 import notificationWithBadge from "../images/icons/notification-with-badge.svg";
 import userImage from "../images/user-image.svg";
 import userAvatar from "../images/user-avatar.svg";
+import TopRightMenu from "./TopRightMenu";
 
 const RightSideBar = () => {
     return (
         <div className="w-[23%] bg-[#FFFFFF] h-screen overflow-scroll">
-          <div className="h-20 flex border-b-2 justify-end items-center gap-8 px-10">
-            <img src={setting} alt="" className="w-6 h-6" />
-            <img src={notificationWithBadge} alt="" />
-            <div className="bg-[#E3E5E8] h-10 w-[2px]"></div>
-            <img src={userAvatar} alt="" />
+          <div className="pt-10">
+            <TopRightMenu />
           </div>
 
           <div className="overflow-auto">
